@@ -1,0 +1,175 @@
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.bodystyle{
+      width: 98%;
+      margin: auto;
+}
+
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.logostyle{
+    height: 23px;
+}
+.carousel-item{
+    position: relative;
+}
+.Texts{
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+
+.carousel-caption h1{
+    text-align: left;
+    color: black;
+}
+.carousel-caption p{
+    text-align: left;
+    color: black;
+}
+.carousel-caption button{
+    position: absolute;
+    left: 0px;
+    padding: 8px 20px;
+    border: none;
+    background-color: #0066B9;
+    color: white;
+    font-size: 15px;
+    font-weight:300px;
+}
+
+
+
+#Text1 {
+    left:55% !important;
+}
+
+#Text2 {
+    right: 40% !important;
+}
+
+#links{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+#cc1{
+    position: absolute;
+    top: 10%;
+}
+
+main{
+    margin: 40px 0;
+}
+
+.card{
+    border: none!important;
+}
+.more{
+    text-decoration: none;
+}
+.card-body{
+    padding: 5px 0!important;
+}
+.msstyle{
+    height: 550px;
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15%;
+}
+.msstore{
+    width: 35%;
+    position: absolute;
+    margin-left: 30px;
+    
+
+}
+
+button{
+    padding: 8px 20px;
+    border: none;
+    background-color: #0066B9;
+    color: white;
+}
+.bottom-card{
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+.socialsec{
+    margin-bottom: 40px;
+}
+footer{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:#F3F2F3;
+}
+footer li{
+    list-style: none;
+}
+footer li:hover{
+    text-decoration: underline;
+}
+footer a{
+    text-decoration: none;
+    color: #606061;
+}
+footer ul{
+    padding: 0;
+}
+.footerbtncrd{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1060px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .ImgSection {
+        width: 100%;
+        float: left;
+    }
+
+    .Texts{
+        position: relative;
+        width: 100% !important;
+        float: left;
+    }
+    #Text1 {
+        left: 0% !important;
+    }
+
+    #Text2 {
+        right: 0;
+        left: 0;
+    }
+
+    #cc1 {
+        left: 0; 
+        width: 100%;
+        float: left !important;
+    }
+    .carousel-indicators {
+        opacity: 0;
+    }
+    #text3{
+        position: relative;
+        color: black;
+    }
+
+}
